@@ -33,12 +33,12 @@
 
                 <div class="ligne-1">
                     <button id="l1-1" style="width: 138px" Onclick ="effacer()" >C</button>
-                    <button id="l1-2" Onclick="fordisplay('F')" >F</button>
+                    <button id="l1-2" Onclick="arret()" >F</button>
                     <button id="l1-4" Onclick="fordisplay('/')" >/</button>
                 </div>
 
                 <div class="ligne-2">
-                    <button id="l2-1" value="7" Onclick="fordisplay('7')" >7</button>
+                    <button id="l2-1.prop(disabled, false)" value="7" Onclick="fordisplay('7')" >7</button>
                     <button id="l2-2" value="8" Onclick="fordisplay('8')" >8</button>
                     <button id="l2-3" value="9" Onclick="fordisplay('9')" >9</button>
                     <button id="l2-4" value="*" Onclick="fordisplay('*')" >*</button>
@@ -66,7 +66,7 @@
                 </div>
             </div>
         </div>
-        <textarea name="historique" id="historique" cols="25" rows="10" readonly placeholder=" Historique de calcul !"></textarea>
+        <textarea name="historique" id="historique" cols="30" rows="5" readonly placeholder=" Historique de calcul !"></textarea>
         <button type="reset" name="effacer" Onclick="del()" >Effacer</button>
     </div>
 
