@@ -23,13 +23,15 @@ function solve() {
     document.getElementById("output").value += b
 } 
 
+
 function arret(){
     document.getElementById("historique").value = "La calculatrice est arreter !"
     document.getElementById("output").value = " "
 
-    document.getElementsById('l2-1').prop(disabled, true)
-
 }
+
+
+
 
 
 

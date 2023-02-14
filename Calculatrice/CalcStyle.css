@@ -38,9 +38,8 @@ nav .onglets a {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    padding: 10px;
     width: 100%;
-    height: 100%;
+    height: 836px;
     background-color: aqua;
 }
 
@@ -76,6 +75,8 @@ nav .onglets a {
 
 textarea{
     margin-top: 150px;
+    height: 330px;
+    width: 300px;
 }
 
 
@@ -116,7 +117,6 @@ button:active {
 
 
    footer {
-    margin-top: 40px;
     border-top: 5px solid black;
     background-color: rgb(28, 28, 28);
     color: white;
