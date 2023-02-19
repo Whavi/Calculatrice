@@ -1,0 +1,70 @@
+Pseudo-Code en normal:
+
+Algorithme : "Calculatrice_JS"
+variable boolean : mode_arret
+Début
+
+ mode_arret <- vrai
+ TANTQUE(mode_arret == vrai)
+
+	Fonction forisplay(value)
+		si mode_arret == faux alors afficheConsole("Calculatrice en arret")
+				      sinon value <- value + élément de l'identifiant "output"
+		Fsi
+
+	Fonction effacer
+		si mode_arret == faux alors afficheConsole("Calculatrice en arret")
+				      sinon value.output <- ""
+		Fsi
+
+	Fonction del
+		si mode_arret == faux alors afficheConsole("Calculatrice en arret")
+				      sinon value.historique <- " "
+		Fsi
+
+	Fonction arret
+		si mode_arret == faux alors afficheConsole("Calculatrice en arret")
+				      sinon value.historique <- "La calculatrice est arrêtée !"
+					    value.output <- ""	
+					    mode_arret <- vrai
+		Fsi
+
+	Fonction solve
+		si mode_arret == faux alors afficheConsole("Calculatrice en arret")
+				      sinon a <- value.output 
+					    b <- evaluation(a)
+					    Afficher(historique)" value, a, " = ", b 
+					    Afficher(output)" value, b " 		    
+		Fsi
+ FTANTQUE
+Fin
+
+====================================================================================================
+
+Pseudo-Code en texte :
+
+Déclaration d'une variable booléenne "boolean" initialisée à "true"
+
+fonction "fordisplay" prenant un argument "value" :
+si "boolean" est égal à "false", afficher une chaîne vide
+sinon, ajouter la valeur "value" à la fin de la propriété "value" de l'élément HTML avec l'ID "output"
+
+fonction "effacer" :
+si "boolean" est égal à "false", afficher une chaîne vide
+sinon, réinitialiser la propriété "value" de l'élément HTML avec l'ID "output" à une chaîne vide
+
+fonction "del" :
+si "boolean" est égal à "false", afficher une chaîne vide
+sinon, réinitialiser la propriété "value" de l'élément HTML avec l'ID "historique" à une chaîne vide et la propriété "value" de l'élément HTML avec l'ID "output" à une chaîne vide
+
+fonction "solve" :
+si "boolean" est égal à "false", afficher une chaîne vide
+sinon, récupérer la valeur de la propriété "value" de l'élément HTML avec l'ID "output" et l'évaluer à l'aide de la fonction "eval", 
+stocker le résultat dans la variable "b", 
+ajouter la chaîne "a = " (où "a" est la valeur initiale de la propriété "value" de l'élément HTML avec l'ID "output") suivie de la valeur de "b" et d'un saut de ligne à la fin de la propriété "value" de l'élément HTML avec l'ID "historique", 
+réinitialiser la propriété "value" de l'élément HTML avec l'ID "output" à une chaîne vide, puis ajouter la valeur de "b" à la fin de la propriété "value" de l'élément HTML avec l'ID "output"
+
+fonction "arret" :
+réinitialiser la propriété "value" de l'élément HTML avec l'ID "historique" à la chaîne "La calculatrice est arreter !", 
+réinitialiser la propriété "value" de l'élément HTML avec l'ID "output" à une chaîne vide, et définir la variable "boolean" à "false"
+
