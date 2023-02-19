@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
 
 *{
     margin: 0;
@@ -15,7 +16,7 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgb(195, 192, 192);
+    background-color: rgb(162, 162, 162);
     border-bottom: 5px solid black;
 }
 
@@ -40,7 +41,7 @@ nav .onglets a {
     margin: 0 auto;
     width: 100%;
     height: 836px;
-    background: linear-gradient(45deg,aqua, gray,black,  gray, aqua); 
+    background: #232427;; 
 }
 
 .textcalc{
@@ -51,7 +52,7 @@ nav .onglets a {
 .textcalc h1{
     margin: 10px;
     padding: 20px;
-    text-decoration: underline black;
+    text-decoration: underline white;
     color: whitesmoke;
 }
 
@@ -66,7 +67,7 @@ nav .onglets a {
 .display {
     margin: 0 auto;
     background-color: rgb(201, 201, 201);
-    padding: 15px;
+    padding: 15px 20px 20px 12px;
     width: 300px;
     text-align: right;
     font-size: 20px;
@@ -75,11 +76,11 @@ nav .onglets a {
 }
 
 textarea{
-    margin-top: 150px;
+    margin-top: 170px;
+    margin-right: 15px;
     height: 330px;
-    width: 300px;
+    width: 200px;
 }
-
 
 button {
     width: 100px;
@@ -87,7 +88,7 @@ button {
     background-color: rgb(194, 194, 194);
     color: black;
     font-size: 20px;
-    margin-top: 150px;
+    margin-top: 168px;
 }
 
 button:hover {
@@ -99,7 +100,7 @@ button:active {
    }
 
 .display button {
-    padding: 10px;
+    padding: 6px;
     width: 67px;
     height: 45px;
     margin-top: 10px;
@@ -116,11 +117,10 @@ button:active {
     background-color: rgb(136, 136, 136);
    }
 
-
-   footer {
+footer {
     border-top: 5px solid black;
     background-color: rgb(28, 28, 28);
-    color: white;
+    color: rgb(162, 162, 162);
     
 }
 
