@@ -41,7 +41,7 @@ nav .onglets a {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    min-height: 100vh;
+    min-height: 89.2vh;
     background: #232427;
   }
 .body .container {
@@ -152,4 +152,11 @@ nav .onglets a {
     background: #fff;
     color: #000;
   }
+
+  footer {
+    border-top: 5px solid black;
+    background-color: rgb(28, 28, 28);
+    color: rgb(162, 162, 162);
+    
+}
   

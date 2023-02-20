@@ -121,7 +121,6 @@ footer {
     border-top: 5px solid black;
     background-color: rgb(28, 28, 28);
     color: rgb(162, 162, 162);
-    
 }
 
 @media screen and (max-width:680px) {
